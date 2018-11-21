@@ -7,14 +7,18 @@ public class Ejercicio10 {
     public static void main(String[] args) {
 
         int numero;
+     
 
         Scanner teclado = new Scanner(System.in);
         System.out.println();
         numero = teclado.nextInt();
+        
+        if (numero > 0) {
+            System.out.println(" el numero es positivo ");
 
-        for (numero = numero - 1; numero >= 1; numero--) {
-            if (numero % numero == 0) {
-                System.out.println("El numero" + numero + "es divisible entre:" + numero);
+        for (int i = 1; i <= numero; i++) {
+            if (numero % i == 0) 
+                System.out.println(i);
             }
         }
 
