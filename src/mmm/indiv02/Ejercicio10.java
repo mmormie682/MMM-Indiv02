@@ -1,5 +1,8 @@
 package mmm.indiv02;
-
+/*Programa que introducido un número indique si es positivo. Si no lo es finalizará 
+el programa pero en caso de que sea mayor que cero mostrará todos los números 
+entre los que es divisible.
+Ejemplo: si se introduce el 20 mostrará: 10, 5, 4, 2 y 1.*/
 import java.util.Scanner;
 
 public class Ejercicio10 {

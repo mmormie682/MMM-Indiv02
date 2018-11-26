@@ -24,7 +24,8 @@ public class Ejercicio01 {
         } 
         else {
             System.out.println(" el numero es positivo");
-        }
+        } 
+       
     }
 
 }
